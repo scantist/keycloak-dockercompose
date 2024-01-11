@@ -1,0 +1,7 @@
+.idea/
+.vscode
+.env
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
