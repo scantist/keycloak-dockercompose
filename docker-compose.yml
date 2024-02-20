@@ -11,7 +11,8 @@ services:
       - keycloak-postgres
     ports:
       - "8313:8313"
-    command: ["start-dev", "--http-port=8313"]
+      - "8314:8314"
+    command: ["start-dev", "--http-port=8313", "--https-port=8314"]
 
   keycloak-postgres:
     image: postgres:14-alpine
